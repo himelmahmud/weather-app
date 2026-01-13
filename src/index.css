@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@theme {
+    /* container: {
+                center: true,
+                padding: "1.25rem",
+            } */
+    --color-body: "#1D1E28";
+    --color-light: "#fff";
+}
