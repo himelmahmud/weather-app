@@ -51,7 +51,7 @@ const useWeather = () => {
                 minTemperature: data?.main?.temp_min,
                 humidity: data?.main?.humidity,
                 cloudPercentage: data?.clouds?.all,
-                wind: data?.main?.speed,
+                wind: data?.wind?.speed,
                 time: data?.dt,
                 longitude: longitude,
                 latitude: latitude,
