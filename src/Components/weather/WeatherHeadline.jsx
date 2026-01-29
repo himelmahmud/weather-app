@@ -55,7 +55,7 @@ export default function WeatherHeadline() {
                     </div>
                 </div>
                 <p className="text-sm lg:text-lg">
-                    {getFormattedData(time, "time")} -{" "}
+                    {getFormattedData(time, "time", false)} -{" "}
                     {getFormattedData(time, "date", false)}
                 </p>
             </div>
